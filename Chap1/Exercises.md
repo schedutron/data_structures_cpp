@@ -31,3 +31,22 @@ lesser memory to save space.
 Addition and multiplication can be performed by the usual rules of binary
 addition and multiplication, and exponentiation can be performed by repeated
 multiplication.
+
+3. Define an ADT for character strings. Your ADT should consist of typical
+functions that can be performed on strings, with each function defined in
+terms of its input and output. Then define two different physical
+representations for strings.
+
+__A__: Character strings are simply a sequence of characters. Strings are
+an essential component of almost any computer program as they are the only
+means of storing textual information in the program. Strings should support
+the following functionalities:
+  * concatenation: Given two strings, give back the joined form of the strings.
+  For example, given "tea" and "pot", return "teapot".
+  * find: Given a string and a character (or even a 'sub-string'), return the
+  position of the character (or the substring), if present, within the string.
+Following are two physical representation of strings:
+  * Assign a byte value (or a block of multiple byte values) to every character
+  and then store a string as an array of such byte values. Retrieval of the
+  actual textual data from these byte values should be a straightforward task.
+  * Can't think of other representation(s)!
