@@ -10,13 +10,13 @@ that depends on the speed of the Internet connection. Operations which are
 performed quick enough include formatting an article once it's downloaded and
 writing a message to be sent to a local file before it's sent.
 
-2. Most programming languages have a built-in integer data type. Normally this
+2. *Most programming languages have a built-in integer data type. Normally this
 representation has a fixed size, thus placing a limit on how large a value can
 be stored in an integer variable. Describe a representation for integers that
 has no size restriction (other than the limits of the computer’s available main
 memory), and thus no practical limit on how large an integer can be stored.
 Briefly show how your representation can be used to implement the operations
-of addition, multiplication, and exponentiation.
+of addition, multiplication, and exponentiation.*
 
 __A__: A straightforward thing that came to my mind is, of course, *binary*
 representation. But even representations which place a cap on the size of
@@ -32,10 +32,10 @@ Addition and multiplication can be performed by the usual rules of binary
 addition and multiplication, and exponentiation can be performed by repeated
 multiplication.
 
-3. Define an ADT for character strings. Your ADT should consist of typical
+3. *Define an ADT for character strings. Your ADT should consist of typical
 functions that can be performed on strings, with each function defined in
 terms of its input and output. Then define two different physical
-representations for strings.
+representations for strings.*
 
 __A__: Character strings are simply a sequence of characters. Strings are
 an essential component of almost any computer program as they are the only
