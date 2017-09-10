@@ -93,3 +93,6 @@ __A__: Following functionalities should be provided by this ADT:
       }
   }
   ```
+5. Briefly describe how integer variables are typically represented on a computer. (Look up one’s complement and two’s complement arithmetic in an introductory computer science textbook if you are not familiar with these.) Why does this representation for integers qualify as a data structure as defined in Section 1.2?
+
+__A__: Integers are typically stored as an array of bits in a computer's memory. The signed integers (i.e., the ones which have positive or negative values) have their "leftmost" bit as the sign bit - when it's 0 - the integer is positive, otherwise negative. What follows is the binary representation of the number. The unsigned integers don't have this sign bit, so for the same allocated space, an unsigned representation can store a "bigger" value than a signed one. The techniques of 1's and 2's complement are used in the subtraction of multiple integers. The addtion procedure is pretty straightforward - it's just about adding bit by bit. This representation for integers qualifies as a data structure because it's implementing an ADT of integers - it's implementing their representation and behaviour. 
