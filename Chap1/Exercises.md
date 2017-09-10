@@ -65,6 +65,7 @@ __A__: Following functionalities should be provided by this ADT:
   * Given an integer, give the position of the integer in the list,
   if present
 
+  Here's the abstract class declaration:
   ```
   class List{
     public:
