@@ -50,3 +50,45 @@ Following are two physical representation of strings:
   and then store a string as an array of such byte values. Retrieval of the
   actual textual data from these byte values should be a straightforward task.
   * Can't think of other representation(s)!
+
+4. Define an ADT for a list of integers. First, decide what functionality your
+ADT should provide. Example 1.4 should give you some ideas. Then, specify your
+ADT in C++ in the form of an abstract class declaration, showing the
+functions, their parameters, and their return types.
+
+__A__: Following functionalities should be provided by this ADT:
+  * Given an integer and a position index, insert the integer at the
+  provided position in the list
+  * Given an integer, delete the integer from the list, if present
+  * Compute its size (number of integers in the list)
+  * Initialize an empty list
+  * Given an integer, give the position of the integer in the list,
+  if present
+
+  ```
+  class List{
+    public:
+      void insert(int num, int pos){
+
+      }
+
+
+      void delete(int num){
+
+      }
+
+      int size(void){
+
+      }
+
+      
+      List(void){
+
+      }
+
+
+      int find(int num){
+
+      }
+  }
+  ```
